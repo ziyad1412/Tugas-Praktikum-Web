@@ -12,9 +12,9 @@ Kalkulator Biaya Parkir Mall adalah aplikasi web sederhana untuk menghitung biay
 
 Untuk memulai dengan Kalkulator Biaya Parkir Mall, ikuti langkah-langkah berikut:
 
-**Pemasangan**: Klon atau unduh repositori ini ke mesin lokal Anda.
-**Penggunaan**: Buka berkas index.php di browser
-**Menghitung Biaya Parkir**:
+- Pemasangan: Klon atau unduh repositori ini ke mesin lokal Anda.
+- Penggunaan: Buka berkas index.php di browser
+- Menghitung Biaya Parkir:
 
 1. Isi nomor plat kendaraan.
 2. Pilih jenis kendaraan (Truk, Motor, Mobil).
