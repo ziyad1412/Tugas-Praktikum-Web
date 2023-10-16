@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pengguna</title>
+  </head>
+  <body>
+    <h1>Formulir Pengguna</h1>
+    <form action="hasil.html">
+      <!-- Inputan Pertama -->
+      <label for="nama">Nama :</label>
+      <input type="text" required />
+      <br />
+      <br />
+      <!-- Inputan Kedua -->
+      <label for="usia">Usia :</label>
+      <input type="number" required />
+      <br />
+      <br />
+      <!-- Inputan Ketiga -->
+      <label for="alamat">Alamat :</label> <br />
+      <textarea cols="30" rows="4"></textarea>
+      <br />
+      <br />
+      <!-- Inputan Keempat -->
+      <label for="foto">Foto Profil :</label>
+      <input type="file" required />
+      <br />
+      <br />
+      <!-- Inputan Kelima -->
+      <label for="hobi">Hobi :</label>
+      <input type="checkbox" name="hobi" id="makan" value="Makan" />Makan
+      <input type="checkbox" name="hobi" id="tidur" value="Tidur" />Tidur
+      <input type="checkbox" name="hobi" id="main" value="Main" />Main
+      <br />
+      <br />
+      <!-- Inputan Keenam -->
+      <label for="kota">Kota :</label>
+      <select name="kota" id="kota">
+        <option value="Depok">Depok</option>
+        <option value="Jakarta">Jakarta</option>
+        <option value="Bogor">Bogor</option>
+      </select>
+      <br />
+      <br />
+      <!-- Tombol Kirim -->
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Kirim" />
+    </form>
+  </body>
+</html>
